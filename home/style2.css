@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+:root{
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --ff-heading:'Inter', sans-serif;
+    --fw-heading : 700;
+    --fs-heading : 2.2em;
+    --clr-highlight: #ffbb33;
+}
+
+/*HOME PAGE*/
+.home{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+}
+.carousel{
+    background: linear-gradient( rgba(118, 90, 90, 0.1), rgba(0, 0, 0, 0.1) ), url('landing_page2.jpg');
+            background-position: center;
+    background-repeat: no-repeat; 
+     background-size: cover; 
+    background-attachment: fixed;
+    padding: 0%;
+    margin: 0%;
+}
+.head{
+    position: relative;
+}
+.heading{
+    position: absolute;
+    top: -20em;
+    left: 27%;
+    right: 27%;
+    text-align: center;
+    color: var(--clr-light);
+    font-size: var(--fs-heading);
+    font-weight: var(--fw-heading);
+    font-family: var(--ff-heading);
+}
+.landing_page_text{
+    position: absolute;
+    font-size: 1em;
+    top: 62%;
+    bottom: 50%;
+    left: 27%;
+    right: 27%;
+    color: var(--clr-light);
+    text-align: center;
+    font-family: var(--ff-heading);
+}
+nav{
+    position: fixed;
+    padding: 0;
+    background-color: black;
+    opacity: 0.5;
+    top: 0%;
+    color: antiquewhite;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    font-family: var(--ff-heading);
+}
+.nav_list{
+    list-style-type: none;
+    font-size: 0.8em;
+}
+.nav_list .nav_item{
+    display: inline-block;
+    padding: 5px 20px;
+}
+a{
+    color: var(--clr-light);
+    text-decoration: none;
+}
+a:hover{
+    color:var(--clr-highlight);
+}
+.socials{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.social_item{
+    margin: 0.5em;
+}
+i{
+    color: var(--clr-light);
+}
+.icons{
+    bottom: 4em;
+    position: relative;
+    left: 1em;
+    display: flex;
+}
+.horizontal_line{
+    content: '';
+    width: 30em;
+    height: 0.08em;
+    background: var(--clr-light);
+    opacity: 0.5;
+    left: 10em;
+    bottom: 1.2em;
+    position: absolute;
+}
+.vertical_line{
+    content: '';
+    background: var(--clr-light);
+    position: absolute;
+    width: 0.08em;
+    height: 25em;
+    left: 0.8em;
+    bottom: 4em;
+    opacity: 0.5;
+}
+.btn{
+    position: relative;
+}
+.button-scroll {
+    position: absolute;
+    width: 10em;
+    height: 3em;
+    left: 87%;
+    top: -12em;
+    bottom: 10em;
+    font-family:var(--ff-heading);
+    font-weight: 15;
+    font-size: 1em;
+    align-items: center;
+    background-color: transparent;
+    text-align: center;
+    color: var(--clr-light);
+    transform: rotate(90deg);
+    border: none;
+  }
+  
